@@ -8,7 +8,6 @@ import { db } from '@/services/firebaseConnections';
 import { doc, collection, query, where, getDoc, addDoc, getDocs, deleteDoc} from 'firebase/firestore';
 import Textarea from '@/components/textArea';
 import { FaTrash } from 'react-icons/fa'
-import { userAgent } from 'next/server';
 
 interface TaskProps{
     item: {
